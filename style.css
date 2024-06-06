@@ -1,0 +1,187 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    color: hsl(30, 18%, 87%);
+}
+
+p span {
+    font-size: 16px;
+}
+
+.container {
+    background-color: white;
+    height: 80%;
+    width: 700px;
+    padding: 30px;
+    margin: 80px 0;
+    border-radius: 10px;
+    font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
+    letter-spacing: 0.5px;
+}
+
+.img-container {
+    height: 40%;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+h1 {
+    color: hsl(24, 5%, 18%);
+    margin-bottom: 20px;
+}
+
+.title-font {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.intro-container > p {
+    margin-bottom: 20px;
+}
+
+.prep-container {
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.prep-container > h3 {
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 10px;
+}
+
+.prep-container > ul {
+    margin-left: 20px;
+}
+
+.prep-container > ul > li {
+    margin-bottom: 10px;
+    color: hsl(332, 51%, 32%); 
+}
+
+.prep-container > ul > li > p {
+    color: hsl(30, 10%, 34%);
+    margin-left: 15px;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 20px;
+}
+
+.ingredients-container {
+    margin-bottom: 25px;
+}
+
+hr {
+    margin-bottom: 25px;
+}
+
+.ingredients-container > ul {
+    margin-left: 20px;
+}
+
+.ingredients-container > ul > li {
+    margin-bottom: 10px;
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredients-container > ul > li > p {
+    color: hsl(30, 10%, 34%);
+    margin-left: 15px;
+}
+
+.instructions-container {
+    margin-bottom: 25px;
+}
+
+.instructions-container > ol {
+    margin-left: 20px;
+}
+
+.instructions-container > ol > li {
+    margin-bottom: 10px;
+    color: hsl(14, 45%, 36%);
+}
+
+.instructions-container > ol > li > p {
+    color: hsl(30, 10%, 34%);
+    margin-left: 15px;
+}
+
+.nutrition-container > p {
+    margin-bottom: 15px;
+}
+
+.nutri-flex {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.nutri-flex-item {
+    flex: 1;
+}
+
+.item-one {
+    margin-left: 25px;
+}
+
+.item-two {
+    color: hsl(14, 45%, 36%);
+}
+
+
+/* Media Queries */
+@media only screen and (max-width: 700px) {
+
+    .container {
+        margin: 0px;
+        padding: 0;
+    }
+
+    .content-container {
+        padding: 0 30px;
+    }
+
+    .img-container {
+        height: 40%;
+        width: 100%;
+        margin-bottom: 25px;
+        padding: 0px;
+    }
+
+    .img-container img {
+        border-radius: 0px;
+    }
+
+    .nutrition-container {
+        padding-bottom: 30px;
+    }
+}
+
+
